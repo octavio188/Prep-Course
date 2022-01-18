@@ -322,7 +322,7 @@ function puedeManejar(edad) {
     return false;
 }
 
-puedeManejar(22); // true
+puedeManejar(17); // false
 ```
 
 Aquí estamos tomando un número (`edad`) y verificando si la declaración es `true` (`22>18`), lo es, por lo que devolveremos `true`, y la función se detendrá. Si no es así, omitirá ese código y la función devolverá `false`.
